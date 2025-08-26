@@ -1,0 +1,185 @@
+[2025-08-26 06:15:06] local.ERROR: Command "make:routes" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:routes\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php:725)
+[stacktrace]
+#0 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(283): Symfony\\Component\\Console\\Application->find('make:routes')
+#1 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /opt/lampp/htdocs/Blog_app/MyBlog-backend/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2025-08-26 06:21:37] local.ERROR: No arguments expected for "migrate" command, got "fresh". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"migrate\" command, got \"fresh\". at /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php:199)
+[stacktrace]
+#0 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(92): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('fresh')
+#1 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('fresh', true)
+#2 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Command/Command.php(276): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(1092): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(341): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /opt/lampp/htdocs/Blog_app/MyBlog-backend/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#11 {main}
+"} 
+[2025-08-26 06:22:14] local.ERROR: The "--fresh" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--fresh\" option does not exist. at /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php:226)
+[stacktrace]
+#0 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(155): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('fresh', NULL)
+#1 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--fresh')
+#2 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--fresh', true)
+#3 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Command/Command.php(276): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(1092): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(341): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /opt/lampp/htdocs/Blog_app/MyBlog-backend/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-08-26 06:22:16] local.ERROR: The "-f" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-f\" option does not exist. at /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php:128)
+[stacktrace]
+#0 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(110): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet('fresh')
+#1 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(90): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-fresh')
+#2 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('-fresh', true)
+#3 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Input/Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Command/Command.php(276): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(1092): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(341): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /opt/lampp/htdocs/Blog_app/MyBlog-backend/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-08-26 06:42:07] local.ERROR: This password does not use the Bcrypt algorithm. {"exception":"[object] (RuntimeException(code: 0): This password does not use the Bcrypt algorithm. at /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php:88)
+[stacktrace]
+#0 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Hashing/HashManager.php(76): Illuminate\\Hashing\\BcryptHasher->check(Object(SensitiveParameterValue), 'password', Array)
+#1 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(158): Illuminate\\Hashing\\HashManager->check(Object(SensitiveParameterValue), 'password')
+#2 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php(481): Illuminate\\Auth\\EloquentUserProvider->validateCredentials(Object(App\\Models\\User), Object(SensitiveParameterValue))
+#3 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php(306): Illuminate\\Auth\\SessionGuard->hasValidCredentials(Object(App\\Models\\User), Array)
+#4 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Support/Timebox.php(34): Illuminate\\Auth\\SessionGuard->Illuminate\\Auth\\{closure}(Object(Illuminate\\Support\\Timebox))
+#5 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php(303): Illuminate\\Support\\Timebox->call(Object(Closure), 200000)
+#6 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php(265): Illuminate\\Auth\\SessionGuard->validate(Array)
+#7 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/tymon/jwt-auth/src/Providers/Auth/Illuminate.php(45): Illuminate\\Auth\\SessionGuard->once(Array)
+#8 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/tymon/jwt-auth/src/JWTAuth.php(49): Tymon\\JWTAuth\\Providers\\Auth\\Illuminate->byCredentials(Array)
+#9 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Tymon\\JWTAuth\\JWTAuth->attempt(Array)
+#10 /opt/lampp/htdocs/Blog_app/MyBlog-backend/app/Http/Controllers/AuthController.php(17): Illuminate\\Support\\Facades\\Facade::__callStatic('attempt', Array)
+#11 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App\\Http\\Controllers\\AuthController->login(Object(Illuminate\\Http\\Request))
+#12 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AuthController), 'login')
+#13 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate\\Routing\\Route->runController()
+#14 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate\\Routing\\Route->run()
+#15 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#45 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#46 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#47 /opt/lampp/htdocs/Blog_app/MyBlog-backend/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#48 /opt/lampp/htdocs/Blog_app/MyBlog-backend/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/opt/lampp/htdo...')
+#49 {main}
+"} 
